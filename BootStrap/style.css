@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+:root
+{
+    --bg-white:#fff;
+--primary-text:#000000;
+--secondary-color: #858585;
+/* --light-color: #e2f6de;
+--dark-color: #03262C;
+--text-white: #fff;
+--text-gray: #dee2ed;
+--anchor-color: #007aff;  */
+/* font family  */
+ 
+--primary-font:'Barlow Condensed',sans-serif;
+--secondary-font:'Roboto',sans-serif;
+
+}
+html body
+{
+font-family: var(--secondary-font);  
+scroll-behavior: smooth;
+   
+} 
+ .navBar li
+{ 
+    padding:0 1vw;
+  
+} 
+
+.crousal img{
+    background-size: contain;
+  
+    height:43vw; 
+    opacity: 0.9; 
+    
+}
+.carousel-inner p
+{
+     font-weight: 400;
+     font-size: 1.2vw;
+} 
+.carousel-inner h1
+{
+     font-weight: 500;
+     font-size: 3.3vw;
+} 
